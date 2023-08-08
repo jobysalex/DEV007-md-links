@@ -1,0 +1,7 @@
+
+NO
+TENGO
+NI 
+UN 
+SOLO 
+LINK

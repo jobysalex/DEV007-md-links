@@ -1,12 +1,40 @@
 {
   "name": "md-links",
   "version": "0.1.0",
+  "description": "Herramienta que lee y analiza archivos en formato .md",
+  "main": "index.js",
+  "bin": {
+    "mdLinks": "index.js"
+  },
+  "keywords": [
+    "node.js",
+    "http",
+    "mdlinks",
+    "project"],
+  "author": "Yohana Alexandra Becerra",
+  "license": "ISC",
   "engines": {
     "node": ">=16.x"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jobysalex/DEV007-md-links.git"
+  },
+
   "bootcamp": {
     "createdAt": "2023-06-20T14:05:58.211Z",
     "version": "6.3.0",
     "commit": "e129ade681adff8cbb19f82e63f688fef2f08f32"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --coverage"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "colors": "^1.4.0"
   }
 }
