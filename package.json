@@ -1,6 +1,6 @@
 {
-  "name": "md-links",
-  "version": "0.1.0",
+  "name": "mdlinks",
+  "version": "0.1.4",
   "description": "Herramienta que lee y analiza archivos en formato .md",
   "main": "index.js",
   "bin": {
